@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Number Counters</title>
-</head>
-<body>
 <?php
+echo "Number Counter\n";
 
 echo "Numbers from 1 to 10:\n";
 $n = 1;
@@ -21,5 +14,3 @@ while ($n <= 20) {
     $n += 2;
 }
 ?>
-</body>
-</html>
